@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="parkings-system_cours-maven" />
+        <module name="parking-system" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="parkings-system_cours-maven" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
