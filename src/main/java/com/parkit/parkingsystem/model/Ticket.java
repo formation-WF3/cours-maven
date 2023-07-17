@@ -24,6 +24,7 @@ public class Ticket {
     }
 
     public void setParkingSpot(ParkingSpot parkingSpot) {
+
         this.parkingSpot = parkingSpot;
     }
 
